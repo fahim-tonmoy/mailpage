@@ -1,0 +1,61 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif; 
+    background: url(header.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+/* .row{
+  margin-right: 80px;
+  margin-left: 130px;
+} */
+
+h1{
+  font-size: 3rem;
+  color: aliceblue;
+  text-transform: uppercase;
+}
+
+h2{
+  font-size: 3rem;
+  color: red;
+  text-transform: uppercase;
+}
+
+.buffer{
+  height: 8rem;
+}
+
+hr{
+  border-color: rgb(133, 20, 39);
+  border-width: 3px;
+  max-width: 60px;
+}
+
+.btn{
+  font-weight: 700;
+  border-radius: 100px;
+  text-transform: uppercase;
+  box-shadow: 0 5px 5px -2px #000000;
+}
+
+.btn-danger{
+  background-color: rgb(124, 9, 9);
+  border-color:  rgb(124, 9, 9);
+}
+
+.btn-danger:hover{
+  background-color: #f53a3a;
+  border-color:  #f53a3a;
+  border-width: 4px;
+}
+
+.btn-xl{
+  padding: 1erm 2rem;
+}
